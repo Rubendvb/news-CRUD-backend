@@ -1,8 +1,8 @@
 import app from './app'
 import './data/dbConfig.ts'
 
-const PORT = process.env.PORT
+const port = process.env.PORT ?? 3000
 
-app.listen(PORT, function () {
-  console.log(`Server listening on port ${PORT}`)
+app.listen(port, function () {
+  console.log(`Server listening on port ${port}`)
 })
