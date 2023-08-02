@@ -1,6 +1,8 @@
-import app from "./app";
-import "./data/dbConfig.ts";
+import app from './app'
+import './data/dbConfig.ts'
 
-app.listen(3333, function () {
-  console.log(`Server listening on port ${3333}`);
-});
+const PORT = process.env.PORT
+
+app.listen(PORT, function () {
+  console.log(`Server listening on port ${PORT}`)
+})
