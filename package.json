@@ -4,8 +4,7 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-    "build": "tsc",
-    "dev": "tsnd src/server.ts"
+    "start": "tsnd src/server.ts"
   },
   "keywords": [],
   "author": "Rubén Vásquez",
